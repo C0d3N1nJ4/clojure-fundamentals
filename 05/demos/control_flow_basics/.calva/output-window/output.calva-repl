@@ -1,0 +1,167 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Interrupting Jack-in process.
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_5_control_flow_basics/exercise_files/control_flow_basics/src/control_flow_basics/core.clj:4:1).
+; Unable to resolve symbol: defn in this context
+clj꞉control-flow-basics.core꞉> 
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_5_control_flow_basics/exercise_files/control_flow_basics/src/control_flow_basics/core.clj:4:1).
+; Unable to resolve symbol: defn in this context
+clj꞉control-flow-basics.core꞉> 
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_5_control_flow_basics/exercise_files/control_flow_basics/src/control_flow_basics/core.clj:4:1).
+; Unable to resolve symbol: defn in this context
+clj꞉control-flow-basics.core꞉> 
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_5_control_flow_basics/exercise_files/control_flow_basics/src/control_flow_basics/core.clj:4:1).
+; Unable to resolve symbol: defn in this context
+clj꞉control-flow-basics.core꞉> 
+#'control-flow-basics.core/print-coffee-machine
+clj꞉control-flow-basics.core꞉> 
+Logging even machine: 12345678
+nil
+clj꞉control-flow-basics.core꞉> 
+Logging odd machine: 12345677
+nil
+clj꞉control-flow-basics.core꞉> 
+Printing odd machine!
+Logging odd machine: 12345677
+nil
+clj꞉control-flow-basics.core꞉> 
+Printing odd machine!
+nil
+clj꞉control-flow-basics.core꞉> 
+Printing odd machine!
+12345677
+clj꞉control-flow-basics.core꞉> 
+Printing odd machine!
+12345677
+clj꞉control-flow-basics.core꞉> 
+nil
+clj꞉control-flow-basics.core꞉> 
+"STOPPED"
+clj꞉control-flow-basics.core꞉> 
+()
+clj꞉control-flow-basics.core꞉> 
+()
+clj꞉control-flow-basics.core꞉> 
+"STOPPED"
+clj꞉control-flow-basics.core꞉> 
+"COOL"
+clj꞉control-flow-basics.core꞉> 
+; Execution error (ArityException) at control-flow-basics.core/eval2704 (REPL:69).
+; Wrong number of args (0) passed to: control-flow-basics.core/spam-coffee-console
+clj꞉control-flow-basics.core꞉> 
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+nil
+clj꞉control-flow-basics.core꞉> 
+4
+8
+5
+10
+6
+12
+nil
+clj꞉control-flow-basics.core꞉> 
+#'control-flow-basics.core/aggregate-coffee-stats
+clj꞉control-flow-basics.core꞉> 
+(4 8 5 10 6 12)
+nil
+clj꞉control-flow-basics.core꞉> 
+Printing odd machine!
+nil
+clj꞉control-flow-basics.core꞉> 
+Printing odd machine!
+12345677
+clj꞉control-flow-basics.core꞉> 
+#'control-flow-basics.core/print-odd-coffee-machine
+clj꞉control-flow-basics.core꞉> 
+Printing odd machine:  12345677
+12345677
+clj꞉control-flow-basics.core꞉> 
+4
+8
+5
+10
+6
+12
+nil
+clj꞉control-flow-basics.core꞉> 
+(4 8 5 10 6 12)
+nil
+clj꞉control-flow-basics.core꞉> 
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.9.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.27.4"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉control-flow-basics.core꞉> 
+; Jack-in done.
+clj꞉control-flow-basics.core꞉> 
+Logging odd machine: 12345677
+nil
+clj꞉control-flow-basics.core꞉> 
+Printing odd machine!
+Logging odd machine: 12345677
+nil
+clj꞉control-flow-basics.core꞉> 
+Printing odd machine:  12345677
+nil
+clj꞉control-flow-basics.core꞉> 
+"STOPPED"
+clj꞉control-flow-basics.core꞉> 
+"COOL"
+clj꞉control-flow-basics.core꞉> 
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+I love coffee.
+nil
+clj꞉control-flow-basics.core꞉> 
+4
+8
+5
+10
+6
+12
+nil
+clj꞉control-flow-basics.core꞉> 
+(4 8 5 10 6 12)
+nil
+clj꞉control-flow-basics.core꞉> 
+; nREPL Connection was closed

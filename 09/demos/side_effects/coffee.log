@@ -1,0 +1,12 @@
+
+  03/22 08:51:01 INFO   :.main: *************** Coffee Agent started ***************
+
+  03/22 08:51:01 INFO   :...locate_grinds: Specified configuration file: /u/user15/coffee.conf
+  03/22 08:51:01 INFO   :.main: Using log level 511
+  03/22 08:51:01 INFO   :..setwbcimage: Get WBC images rc - Operation not supported on socket.
+
+  03/22 08:51:01 INFO   :..setwbcimage: Associate with TCP/IP image name = TCPCS
+  03/22 08:51:02 INFO   :..reg_process: registering process with the system
+  03/22 08:51:02 INFO   :..reg_process: attempt OS/390 registration
+  03/22 08:51:02 INFO   :..reg_process: return from registration rc=0               
+               

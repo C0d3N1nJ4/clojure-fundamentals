@@ -1,0 +1,61 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.9.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.27.4"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉side-effects.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉side-effects.core꞉> 
+; Syntax error compiling at (src/side_effects/file_io.clj:23:1).
+; Unable to resolve symbol: write-logs in this context
+clj꞉side-effects.file_io꞉> 
+#'side-effects.file_io/read-logs
+clj꞉side-effects.file_io꞉> 
+nil
+clj꞉side-effects.file_io꞉> 
+nil
+clj꞉side-effects.file_io꞉> 
+true
+clj꞉side-effects.file_io꞉> 
+nil
+clj꞉side-effects.file_io꞉> 
+
+  03/22 08:51:01 INFO   :.main: *************** Coffee Agent started ***************
+
+  03/22 08:51:01 INFO   :...locate_grinds: Specified configuration file: /u/user15/coffee.conf
+  03/22 08:51:01 INFO   :.main: Using log level 511
+  03/22 08:51:01 INFO   :..setwbcimage: Get WBC images rc - Operation not supported on socket.
+
+  03/22 08:51:01 INFO   :..setwbcimage: Associate with TCP/IP image name = TCPCS
+  03/22 08:51:02 INFO   :..reg_process: registering process with the system
+  03/22 08:51:02 INFO   :..reg_process: attempt OS/390 registration
+  03/22 08:51:02 INFO   :..reg_process: return from registration rc=0               
+               
+nil
+clj꞉side-effects.file_io꞉> 
+()
+nil
+clj꞉side-effects.db꞉> 
+({:uuid #uuid "6339d8a5-353c-43f4-ac26-feee7afb2720", :name "Wired Brain", :kind "French Roast", :price 2.99})
+clj꞉side-effects.db꞉> 
+({:uuid #uuid "6339d8a5-353c-43f4-ac26-feee7afb2720", :name Wired Brain, :kind French Roast, :price 2.99})
+nil
+clj꞉side-effects.db꞉> 
+; Execution error (PSQLException) at org.postgresql.jdbc.PgPreparedStatement/executeQuery (PgPreparedStatement.java:134).
+; No results were returned by the query.
+clj꞉side-effects.db꞉> 
+()
+nil
+clj꞉side-effects.db꞉> 

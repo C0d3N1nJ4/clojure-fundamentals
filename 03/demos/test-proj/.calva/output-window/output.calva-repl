@@ -1,0 +1,457 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+"boomHello, World!"
+clj꞉test-psroj.core꞉> 
+"boom Hello, World!"
+clj꞉test-psroj.core꞉> 
+boom Hello, World!
+nil
+clj꞉test-psroj.core꞉> 
+#'test-psroj.core/foo
+clj꞉test-psroj.core꞉> 
+3
+clj꞉test-psroj.core꞉> 
+; Execution error (ClassCastException) at test-psroj.core/eval2095 (REPL:13).
+; class java.lang.Character cannot be cast to class clojure.lang.IFn (java.lang.Character is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'bootstrap')
+clj꞉test-psroj.core꞉> 
+\Z
+clj꞉test-psroj.core꞉> 
+"Hello World"
+clj꞉test-psroj.core꞉> 
+10
+clj꞉test-psroj.core꞉> 
+#{"Alice" "Kelly"}
+clj꞉test-psroj.core꞉> 
+clojure.lang.PersistentHashSet
+clj꞉test-psroj.core꞉> 
+; Execution error (ClassCastException) at test-psroj.core/eval2105 (REPL:21).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'bootstrap')
+clj꞉test-psroj.core꞉> 
+1
+clj꞉test-psroj.core꞉> 
+true
+clj꞉test-psroj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:22:1).
+; Unable to resolve symbol: people in this context
+clj꞉test-psroj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:21:1).
+; Unable to resolve symbol: “Kalie” in this context
+clj꞉test-psroj.core꞉> 
+#'test-psroj.core/people
+clj꞉test-psroj.core꞉> 
+test-psroj.core/“Kalie”
+clj꞉test-psroj.core꞉> 
+true
+clj꞉test-psroj.core꞉> 
+#:test-psroj.core{“James” 10, “Zachary” 1, “Kalie” 8}
+clj꞉test-psroj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:26:1).
+; Unable to resolve symbol: scores in this context
+clj꞉test-psroj.core꞉> 
+{"Ding" 12, test-psroj.core/“James” 10, test-psroj.core/“Zachary” 1, test-psroj.core/“Kalie” 8}
+clj꞉test-psroj.core꞉> 
+#'test-psroj.core/my-regexp
+clj꞉test-psroj.core꞉> 
+#"[A-Z]"
+clj꞉test-psroj.core꞉> 
+(1 2 3)
+clj꞉test-psroj.core꞉> 
+1
+clj꞉test-psroj.core꞉> 
+false
+clj꞉test-psroj.core꞉> 
+false
+clj꞉test-psroj.core꞉> 
+false
+clj꞉test-psroj.core꞉> 
+true
+clj꞉test-psroj.core꞉> 
+#object[clojure.core$get 0xef3fd67 "clojure.core$get@ef3fd67"]
+clj꞉test-psroj.core꞉> 
+"Zachary"
+clj꞉test-psroj.core꞉> 
+{"Ding" 12, test-psroj.core/“James” 10, test-psroj.core/“Zachary” 1, test-psroj.core/“Kalie” 8}
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+#'test-psroj.core/scores
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+"Zachary"
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+#'test-psroj.core/scores
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+1
+clj꞉test-psroj.core꞉> 
+#'test-psroj.core/people
+clj꞉test-psroj.core꞉> 
+true
+clj꞉test-psroj.core꞉> 
+{:Zachary 1, :Brian 12}
+clj꞉test-psroj.core꞉> 
+3
+clj꞉test-psroj.core꞉> 
+2
+clj꞉test-psroj.core꞉> 
+true
+clj꞉test-psroj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:31:1).
+; Unable to resolve symbol: deek in this context
+clj꞉test-psroj.core꞉> 
+1
+clj꞉test-psroj.core꞉> 
+1
+clj꞉test-psroj.core꞉> 
+1
+clj꞉test-psroj.core꞉> 
+1
+clj꞉test-psroj.core꞉> 
+2
+clj꞉test-psroj.core꞉> 
+2
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+nil
+clj꞉test-psroj.core꞉> 
+boom Hello, World!
+nil
+clj꞉test-psroj.core꞉> 
+boom Hello, World!
+nil
+clj꞉test-psroj.core꞉> 
+My String
+nil
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:9:1).
+; Unable to resolve symbol: my-str-var in this context
+clj꞉test-proj.core꞉> 
+ABC
+nil
+clj꞉test-proj.core꞉> 
+Z
+nil
+clj꞉test-proj.core꞉> 
+java.lang.Character
+clj꞉test-proj.core꞉> 
+java.lang.String
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:19:1).
+; Unable to resolve symbol: my-reg-expr in this context
+clj꞉test-proj.core꞉> 
+java.util.regex.Pattern
+clj꞉test-proj.core꞉> 
+"P"
+clj꞉test-proj.core꞉> 
+#'test-proj.core/my-reg-expr
+clj꞉test-proj.core꞉> 
+["Pluralsight" "Pluralsight"]
+clj꞉test-proj.core꞉> 
+#'test-proj.core/my-reg-expr
+clj꞉test-proj.core꞉> 
+"Pluralsight"
+clj꞉test-proj.core꞉> 
+nil
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:0:0).
+; Unable to resolve symbol: is in this context
+clj꞉test-proj.core꞉> 
+nil
+clj꞉test-proj.core꞉> 
+#'test-proj.core/my-reg-expr
+clj꞉test-proj.core꞉> 
+"Clojure"
+clj꞉test-proj.core꞉> 
+nil
+clj꞉test-proj.core꞉> 
+java.lang.Long
+clj꞉test-proj.core꞉> 
+java.lang.Double
+clj꞉test-proj.core꞉> 
+clojure.lang.Ratio
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:35:1).
+; Unable to resolve symbol: ratio in this context
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:35:1).
+; Unable to resolve symbol: ratio in this context
+clj꞉test-proj.core꞉> 
+true
+clj꞉test-proj.core꞉> 
+2
+clj꞉test-proj.core꞉> 
+#'test-proj.core/my-ratio
+clj꞉test-proj.core꞉> 
+2
+clj꞉test-proj.core꞉> 
+1010.345633
+clj꞉test-proj.core꞉> 
+java.lang.Double
+clj꞉test-proj.core꞉> 
+clojure.lang.Keyword
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:55:1).
+; Unable to resolve symbol: my-symbol in this context
+clj꞉test-proj.core꞉> 
+clojure.core$map
+clj꞉test-proj.core꞉> 
+false
+clj꞉test-proj.core꞉> 
+false
+clj꞉test-proj.core꞉> 
+false
+clj꞉test-proj.core꞉> 
+nil
+clj꞉test-proj.core꞉> 
+clojure.core$map
+clj꞉test-proj.core꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: clojure.core$_PLUS_
+clj꞉test-proj.core꞉> 
+; Syntax error reading source at (REPL:55:1).
+; EOF while reading, starting at line 54
+clj꞉test-proj.core꞉> 
+(2 3 4)
+clj꞉test-proj.core꞉> 
+java.lang.Boolean
+clj꞉test-proj.core꞉> 
+#object[clojure.core$type 0x54380a07 "clojure.core$type@54380a07"]
+clj꞉test-proj.core꞉> 
+java.lang.Boolean
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:44:1).
+; Unable to resolve symbol: my-vector in this context
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:44:1).
+; Unable to resolve symbol: my-vector in this context
+clj꞉test-proj.core꞉> 
+(2 4)
+clj꞉test-proj.core꞉> 
+(1 3)
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/core.clj:54:1).
+; Unable to resolve symbol: number-vector in this context
+clj꞉test-proj.core꞉> 
+#{1 4 3 2}
+clj꞉test-proj.core꞉> 
+{:a 2, :b 2, :c 3, :d 4, :e 5}
+clj꞉test-proj.core꞉> 
+(2 4 5)
+nil
+clj꞉test-proj.core꞉> 
+(1 2 3)
+nil
+clj꞉test-proj.core꞉> 
+java.lang.String
+clj꞉test-proj.core꞉> 
+java.lang.Character
+clj꞉test-proj.core꞉> 
+nil
+clj꞉test-proj.core꞉> 
+"Clojure"
+clj꞉test-proj.core꞉> 
+java.lang.Long
+clj꞉test-proj.core꞉> 
+java.lang.Double
+clj꞉test-proj.core꞉> 
+java.lang.Double
+clj꞉test-proj.core꞉> 
+clojure.lang.Ratio
+clj꞉test-proj.core꞉> 
+#'test-proj.core/whole-number-ratio
+clj꞉test-proj.core꞉> 
+clojure.lang.Ratio
+clj꞉test-proj.core꞉> 
+java.lang.Long
+clj꞉test-proj.core꞉> 
+0.6666666666666667
+clj꞉test-proj.core꞉> 
+clojure.core$map
+clj꞉test-proj.core꞉> 
+(2 3 4)
+clj꞉test-proj.core꞉> 
+; Syntax error compiling at (test-proj/src/test_proj/module_4_test.clj:3:1).
+; Unable to resolve symbol: defn in this context
+; Syntax error compiling at (test-proj/src/test_proj/module_4_test.clj:9:1).
+; Unable to resolve symbol: my-printer in this context
+; Syntax error compiling at (test-proj/src/test_proj/module_4_test.clj:11:1).
+; Unable to resolve symbol: my-printer in this context
+; Syntax error compiling at (test-proj/src/test_proj/module_4_test.clj:12:1).
+; Unable to resolve symbol: my-printer in this context
+clj꞉test-proj.module-4-test꞉> 
+No parameters!
+One parameter
+Two parameters
+nil
+clj꞉test-proj.module-4-test꞉> 
+#'test-proj.module-4-test/my-printer
+clj꞉test-proj.module-4-test꞉> 
+No parameters!
+One
+One Two
+nil
+clj꞉test-proj.module-4-test꞉> 
+No parameters!
+One
+One  Two
+nil
+clj꞉test-proj.module-4-test꞉> 
+No parameters!
+One
+One Two
+nil
+clj꞉test-proj.module-4-test꞉> 
+; Execution error (ArityException) at test-proj.module-4-test/eval2422 (REPL:14).
+; Wrong number of args (3) passed to: test-proj.module-4-test/my-printer
+clj꞉test-proj.module-4-test꞉> 
+First (Second 3 4 Fifth)
+nil
+clj꞉test-proj.module-4-test꞉> 
+#'test-proj.module-4-test/foo
+clj꞉test-proj.module-4-test꞉> 
+First
+Second
+3
+4
+Fifth
+nil
+clj꞉test-proj.module-4-test꞉> 
+First
+Second
+3
+4
+Fifth
+nil
+clj꞉test-proj.module-4-test꞉> 
+"HelloZacharyBennett"
+clj꞉test-proj.module-4-test꞉> 
+(2 3 4)
+clj꞉test-proj.module-4-test꞉> 
+(2 3 4)
+clj꞉test-proj.module-4-test꞉> 
+6
+clj꞉test-proj.module-4-test꞉> 
+; Execution error (ClassCastException) at test_proj.module_4_test$eval2466$fn__2467/doInvoke (REPL:39).
+; class clojure.lang.ArraySeq cannot be cast to class java.lang.Number (clojure.lang.ArraySeq is in unnamed module of loader 'bootstrap'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉test-proj.module-4-test꞉> 
+#object[test_proj.module_4_test$eval2472$fn__2473 0x2575f180 "test_proj.module_4_test$eval2472$fn__2473@2575f180"]
+clj꞉test-proj.module-4-test꞉> 
+1st (2nd 3rd)
+nil
+clj꞉test-proj.module-4-test꞉> 
+3
+clj꞉test-proj.module-4-test꞉> 
+(2 3 4)
+clj꞉test-proj.module-4-test꞉> 
+3
+clj꞉test-proj.module-4-test꞉> 
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.9.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.27.4"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉test-proj.core꞉> 
+; Jack-in done.
+clj꞉test-proj.core꞉> 
+My String
+nil
+clj꞉test-proj.core꞉> 
+ABC
+nil
+clj꞉test-proj.core꞉> 
+java.lang.String
+clj꞉test-proj.core꞉> 
+Z
+java.lang.Character
+clj꞉test-proj.core꞉> 
+java.util.regex.Pattern
+clj꞉test-proj.core꞉> 
+"Clojure"
+clj꞉test-proj.core꞉> 
+nil
+clj꞉test-proj.core꞉> 
+java.lang.Long
+clj꞉test-proj.core꞉> 
+java.lang.Double
+clj꞉test-proj.core꞉> 
+1010.345633
+clj꞉test-proj.core꞉> 
+1010.345633
+clj꞉test-proj.core꞉> 
+java.lang.Double
+clj꞉test-proj.core꞉> 
+clojure.lang.Ratio
+clj꞉test-proj.core꞉> 
+java.lang.Long
+clj꞉test-proj.core꞉> 
+2
+clj꞉test-proj.core꞉> 
+true
+clj꞉test-proj.core꞉> 
+0.6666666666666667
+clj꞉test-proj.core꞉> 
+(2 4)
+clj꞉test-proj.core꞉> 
+(1 3)
+clj꞉test-proj.core꞉> 
+#{1 4 3 2}
+clj꞉test-proj.core꞉> 
+{:a 2, :b 2, :c 3, :d 4, :e 5}
+clj꞉test-proj.core꞉> 
+(1 2 3)
+(2 4 5)
+nil
+clj꞉test-proj.core꞉> 
+clojure.core$map
+clj꞉test-proj.core꞉> 
+(2 3 4)
+clj꞉test-proj.core꞉> 
+nil
+clj꞉test-proj.core꞉> 
+java.lang.Boolean
+clj꞉test-proj.core꞉> 
+java.lang.Boolean
+clj꞉test-proj.core꞉> 
+clojure.lang.Keyword
+clj꞉test-proj.core꞉> 
+; nREPL Connection was closed

@@ -1,0 +1,149 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_4_using_functions_in_clojure/exercise_files/using_functions/src/using_functions/core.clj:14:1).
+; Unable to resolve symbol: defn in this context
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_4_using_functions_in_clojure/exercise_files/using_functions/src/using_functions/core.clj:18:1).
+; Unable to resolve symbol: println in this context
+clj꞉using-functions.core꞉> 
+#'using-functions.core/stat-map-two
+clj꞉using-functions.core꞉> 
+#'using-functions.core/stat-vector
+clj꞉using-functions.core꞉> 
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_4_using_functions_in_clojure/exercise_files/using_functions/src/using_functions/core.clj:14:1).
+; Unable to resolve symbol: defn in this context
+clj꞉using-functions.core꞉> 
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_4_using_functions_in_clojure/exercise_files/using_functions/src/using_functions/core.clj:14:1).
+; Unable to resolve symbol: defn in this context
+clj꞉using-functions.core꞉> 
+nil
+clj꞉using-functions.core꞉> 
+()
+nil
+clj꞉using-functions.core꞉> 
+#object[using_functions.core$eval2527$fn__2528 0x7170970d "using_functions.core$eval2527$fn__2528@7170970d"]
+clj꞉using-functions.core꞉> 
+#object[using_functions.core$eval2532$fn__2533 0x1379f6f "using_functions.core$eval2532$fn__2533@1379f6f"]
+clj꞉using-functions.core꞉> 
+20
+clj꞉using-functions.core꞉> 
+20
+clj꞉using-functions.core꞉> 
+#'using-functions.core/filter-stats
+clj꞉using-functions.core꞉> 
+({:value 20})
+nil
+clj꞉using-functions.core꞉> 
+({:value 20, :serial-num 1234567})
+nil
+clj꞉using-functions.core꞉> 
+; Execution error (ArityException) at using-functions.core/eval2552 (REPL:17).
+; Wrong number of args (2) passed to: using-functions.core/filter-stats
+clj꞉using-functions.core꞉> 
+#'using-functions.core/filter-stats-by-value
+clj꞉using-functions.core꞉> 
+; Execution error (ArityException) at using-functions.core/eval2558 (REPL:17).
+; Wrong number of args (2) passed to: using-functions.core/filter-stats
+clj꞉using-functions.core꞉> 
+({:value 20, :serial-num 1234567})
+nil
+clj꞉using-functions.core꞉> 
+#'using-functions.core/print-status
+clj꞉using-functions.core꞉> 
+Machine Off
+nil
+clj꞉using-functions.core꞉> 
+Power On Successful System Ready
+nil
+clj꞉using-functions.core꞉> 
+Power On Successful System Ready
+Needs Cleaning
+nil
+clj꞉using-functions.core꞉> 
+#'using-functions.core/aggregate-stats
+clj꞉using-functions.core꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3889).
+; Cannot cast clojure.lang.ArraySeq to java.lang.Number
+clj꞉using-functions.core꞉> 
+#'using-functions.core/aggregate-stats
+clj꞉using-functions.core꞉> 
+55
+clj꞉using-functions.core꞉> 
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_4_using_functions_in_clojure/exercise_files/using_functions/src/using_functions/core.clj:8:1).
+; Unable to resolve symbol: print-coffee-machine in this context
+clj꞉using-functions.core꞉> 
+#'using-functions.core/print-coffee-machine
+clj꞉using-functions.core꞉> 
+Logging machine: 12345678
+nil
+clj꞉using-functions.core꞉> 
+({:value 20, :serial-num 1234567})
+nil
+clj꞉using-functions.core꞉> 
+Machine Off
+nil
+clj꞉using-functions.core꞉> 
+55
+clj꞉using-functions.core꞉> 
+; Syntax error compiling at (/Users/zach/dev/ps/vc/clojure-fundamentals/module_4_using_functions_in_clojure/exercise_files/using_functions/src/using_functions/core.clj:45:3).
+; Unable to resolve symbol: “ in this context
+clj꞉using-functions.core꞉> 
+1   4
+1   5
+1   6
+2   4
+2   5
+2   6
+3   4
+3   5
+3   6
+nil
+clj꞉using-functions.core꞉> 
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.9.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.27.4"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉using-functions.core꞉> 
+; Jack-in done.
+clj꞉using-functions.core꞉> 
+Logging machine: 12345678
+nil
+clj꞉using-functions.core꞉> 
+({:value 20, :serial-num 1234567})
+nil
+clj꞉using-functions.core꞉> 
+Machine Off
+nil
+clj꞉using-functions.core꞉> 
+Power On Successful System Ready
+Power On Successful System Ready
+Needs Cleaning
+nil
+clj꞉using-functions.core꞉> 
+; Execution error (ArityException) at using-functions.core/eval6110 (form-init6173249022895792122.clj:35).
+; Wrong number of args (3) passed to: using-functions.core/print-status
+clj꞉using-functions.core꞉> 
+55
+clj꞉using-functions.core꞉> 
+; nREPL Connection was closed
